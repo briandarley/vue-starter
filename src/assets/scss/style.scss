@@ -1,0 +1,26 @@
+@import "banner.scss";
+
+
+.main-vue {
+  border: 1px solid $link-blue;
+  min-height: 500px;
+
+  .app-pages {
+    padding-top: 20px;
+    border-right: 1px solid $link-blue;
+    min-height: 500px;
+
+
+    .list-group-item {
+      color: $athletics-navy;
+      border-radius: 0;
+      /*background: $carolina-blue;*/
+    }
+
+    .list-group-item:hover {
+      color: $white;
+    }
+
+    
+  }
+}
