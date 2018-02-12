@@ -1,5 +1,11 @@
 @import "banner.scss";
-
+.fa-blank {
+  visibility: hidden !important;
+}
+.f-size-1{
+  font-size:1.8em;
+  
+}
 
 .main-vue {
   border: 1px solid $link-blue;
@@ -11,16 +17,15 @@
     min-height: 500px;
 
 
-    .list-group-item {
+    .list-group-item, .list-group-item a {
       color: $athletics-navy;
       border-radius: 0;
       /*background: $carolina-blue;*/
     }
 
-    .list-group-item:hover {
+    .list-group-item.active a, .list-group-item:hover, .list-group-item:hover a {
       color: $white;
+      text-decoration: none;
     }
-
-    
   }
 }

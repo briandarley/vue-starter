@@ -3,7 +3,7 @@
   <div class="banner">
     <div class="banner-container">
       <div class="banner-overlay"></div>
-      <img src="../assets/img/UNC_logo_white.png" class="unc-logo" />
+      <img src="../../assets/img/UNC_logo_white.png" class="unc-logo" />
     </div>
     <div class="row">
       <div class="offset-8 col-md-4">
@@ -29,8 +29,7 @@
         <li class="list-inline-item btn btn-primary">Win Tools</li>
         <li class="list-inline-item btn btn-primary">Office365 Groups</li>
       </ul>
-    </div>
-  </div>
+    </div></div>
 </template>
 
 <script>
